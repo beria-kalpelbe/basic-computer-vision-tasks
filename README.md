@@ -28,9 +28,9 @@ Implemented a face denoising algorithm using OpenCV and deep learning. The proje
 
 ## Vehicle Reidentification System
 
-Developed a vehicle reidentification system using Siamese networks. The system is capable of recognizing and tracking vehicles across different camera feeds.
+Here, we are developping a re-identification system for vehicles using image retrieval. The system is capable of recognizing and tracking vehicles across different camera feeds.
 
-![alt text](3-Figure3-1.png)
+![alt text](https://production-media.paperswithcode.com/tasks/vehicleReID_KT5l9ol.jpg)
 
 ## Installation
 
