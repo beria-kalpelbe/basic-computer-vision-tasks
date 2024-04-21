@@ -11,7 +11,7 @@ Implemented a convolutional neural network (CNN) from scratch using PyTorch to c
 
 ![image_classification_from_scratch.png](https://miro.medium.com/max/1100/1*SZnidBt7CQ4Xqcag6rd8Ew.png)
 
-## Image Classification using Transfer Learning
+## Image Classification using VGG16
 <a src="https://drive.google.com/file/d/10D1i75sMBp7aaNdg9VpGlNbNXzz88EY4/view?usp=sharing">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" alt="Open In Colab"/>
 </a>
@@ -20,9 +20,12 @@ In this project, a classification model was trained using transfer learning tech
 
 ![image_classification_from_scratch.png](https://miro.medium.com/v2/resize:fit:1400/1*NNifzsJ7tD2kAfBXt3AzEg.png)
 
-## Object Detection
+## Evaluation of an object detection model
+<a src="https://drive.google.com/file/d/10D1i75sMBp7aaNdg9VpGlNbNXzz88EY4/view?usp=sharing">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" alt="Open In Colab"/>
+</a>
 
-Implemented object detection using the YOLO (You Only Look Once) algorithm. The project includes the training of the YOLO model on a custom dataset for detecting specific objects in images.
+In this notebook, we implement the evaluation of YOLO (You Only Look Once) models using the mean Average Precision (mAP) metric. mAP is a widely used metric in object detection tasks, including YOLO models. It provides a comprehensive measure of the model's performance by considering both precision and recall across all classes and varying levels of confidence thresholds. By computing mAP, we gain insights into how well our YOLO model detects objects in an image, making it a crucial tool for evaluating and improving object detection systems.
 
 ![YOLOv5 architecture](https://deci.ai/wp-content/uploads/2022/11/yolov6-yolov5-yolox-blog-header.jpg)
 
