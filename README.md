@@ -2,13 +2,19 @@
 
 This repository contains various computer vision projects implemented using Python and the popular library PyTorch. Below is a brief overview of each project:
 
-## Image Classification from Scratch
+## Image Classification using CNN
+<a src="https://colab.research.google.com/drive/1n4RcAcw0uMODD4nHE8P2QF9Lr_SVf1QF?usp=sharing">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" alt="Open In Colab"/>
+</a>
 
 Implemented a convolutional neural network (CNN) from scratch using PyTorch to classify images. The model architecture includes convolutional layers, pooling layers, and fully connected layers. The CIFRA10 dataset was used for training and evaluation.
 
 ![image_classification_from_scratch.png](https://miro.medium.com/max/1100/1*SZnidBt7CQ4Xqcag6rd8Ew.png)
 
 ## Image Classification using Transfer Learning
+<a src="https://drive.google.com/file/d/10D1i75sMBp7aaNdg9VpGlNbNXzz88EY4/view?usp=sharing">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" alt="Open In Colab"/>
+</a>
 
 In this project, a classification model was trained using transfer learning techniques. A pre-trained VGG16 model was used as the base model, and it was fine-tuned on a custom dataset (CIFAR10) to classify images.
 
@@ -21,12 +27,19 @@ Implemented object detection using the YOLO (You Only Look Once) algorithm. The 
 ![YOLOv5 architecture](https://deci.ai/wp-content/uploads/2022/11/yolov6-yolov5-yolox-blog-header.jpg)
 
 ## Face Denoising
+<a src="https://colab.research.google.com/drive/1tyLJVYecmgGOZcxWjyv-gbal7ZMv3P7t?usp=sharing">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" alt="Open In Colab"/>
+</a>
 
 Implemented a face denoising algorithm using OpenCV and deep learning. The project aims to remove noise from facial images while preserving important features.
 
 ![Face denoising image](https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs42979-022-01042-y/MediaObjects/42979_2022_1042_Fig12_HTML.png)
 
 ## Vehicle Reidentification System
+
+<a src="https://drive.google.com/file/d/1G0Xe140_26WGiYzRV7Z3YCVPIfYhXkvW/view?usp=sharing">
+   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" alt="Open In Colab"/>
+</a>
 
 Here, we are developping a re-identification system for vehicles using image retrieval. The system is capable of recognizing and tracking vehicles across different camera feeds.
 
